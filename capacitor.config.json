@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.app",
+  "appName": "trapeze-issues",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

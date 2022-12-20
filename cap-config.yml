@@ -1,0 +1,11 @@
+platforms:
+  ios:
+    targets:
+      App:
+        strings:
+          - file: App/en.lproj/InfoPlist.strings
+            set:
+              "CFBundleDisplayName": "My app name"
+          - file: App/de.lproj/InfoPlist.strings
+            set:
+              "CFBundleDisplayName": "Meine App"
