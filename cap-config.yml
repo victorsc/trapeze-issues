@@ -9,3 +9,26 @@ platforms:
           - file: App/de.lproj/InfoPlist.strings
             set:
               "CFBundleDisplayName": "Meine App"
+  android:
+    xml:
+      - resFile: values/strings.xml
+        target: /resources
+        merge: |
+          <resources>
+            <string name="app_name">My app</string>
+            <string name="title_activity_main">My app</string>
+          </resources>
+      - resFile: values-fr/strings.xml
+        target: /resources
+        merge: |
+          <resources>
+            <string name="app_name">Mon appli</string>
+            <string name="title_activity_main">Mon appli</string>
+          </resources>
+      - resFile: values-de/strings.xml
+        target: /resources
+        merge: |
+          <resources>
+            <string name="app_name">Meine App</string>
+            <string name="title_activity_main">Meine App</string>
+          </resources>
